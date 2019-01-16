@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <style>
+        body {margin:0;}
+        .scene {
+            height:100vh;
+            display:block;
+            background-attachment: fixed;
+            background-size:cover;
+            background-position: center;
+            overflow:hidden;
+        }
+        .scene.one {background-image:url(img1600_1.jpg);}
+        .scene.two {background-image:url(img1600_2.jpg);}
+        .scene.three {background-image:url(img1600_3.jpg);}
+        .scene h1 {margin-bottom:1rem:0; font-size:2rem; font-weight:200;}
+        .scene h1:after {content:"test"; display:block; width:8rem; margin:0 auto; border-bottom:1px solid #fff;}
+        .scene header {max-width:80%; position:relative; left:50%; top:50%; text-align:center; font-weight:200; font-size:1.5rem; transform:translateX(-50%) translateY(-50%); color:white;}
+    </style>
+</head>
+    
+<body>
+    <section class="scene one">
+        <header><h1>Lorem ipsum dolor sit amet.</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, non quod distinctio. Et, non, voluptate.
+        </header>
+    </section>
+    <section class="scene two">
+        <header><h1>Lorem ipsum dolor sit amet.</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium dolorum ipsa enim doloremque, veniam odio.
+        </header>header>
+    </section>
+    <section class="scene three">
+        <header><h1>Lorem ipsum dolor sit amet.</h1>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique facilis vel, nobis, harum dolorum mollitia!
+        </header>
+    </section>
+</body>
+</html>
